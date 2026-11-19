@@ -1,0 +1,62 @@
+#contact{
+    background: radial-gradient(ellipse at 90% 50%, rgba(255, 81, 10, .42),
+        transparent 50%), linear-gradient(28deg, #261813, #6f1d08 65%, #ff5316);
+}
+
+.contactContainer{
+    padding: unset;
+}
+
+.contact-innerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactOptions-Container{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+
+.optionName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding: 10px;
+    
+}
+
+.optionName:hover .socialName{
+    border-bottom: 1px solid;
+    color:#5A2D16;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 9px;
+}
+
+.optionIcon {
+    width: 40px;
+}
+
+.socialName{
+    padding: 10px;
+}
+

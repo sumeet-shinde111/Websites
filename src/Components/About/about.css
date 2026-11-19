@@ -1,0 +1,52 @@
+#about_us{
+    /* background: url("/images/services/services-background.webp"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("/images/about/About.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+
+.aboutInnerContainer{
+    display: flex;
+    flex-direction: row;  
+}
+
+
+.aboutUs{
+    gap: 48px;
+    margin: 100px 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutContent{
+    width: 45%;
+}
+
+.aboutTagline{
+    margin: 20px 20px;
+    font-size: 46px;
+}
+
+.aboutSubTagLine{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 90%;
+    font-size: 20px;
+    line-height: 30px;
+    color: #c6c1bc;
+    letter-spacing: 2px;
+    padding: 20px 20px 20px 0;
+}
+
+
+.aboutImage{
+    height: 500px;
+    /* background: linear-gradient(135deg, #ff510a, #571707 65%, #171717); */
+}
+
+/* ---------------------- */

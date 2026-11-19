@@ -1,0 +1,38 @@
+.founderContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#founder{
+    height: 100vh;
+}
+
+.founderName{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.textContent{
+    padding: 22px;
+    width: 60%;
+}
+
+.founderImage{
+    width: 40%;
+    height: 500px;
+}
+
+.text{
+    text-align: justify;
+    padding: 22px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.text:last-child{
+    display:flex;
+    flex-direction:column;
+}

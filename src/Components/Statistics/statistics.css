@@ -1,0 +1,57 @@
+    #statistics{
+        padding: 25px 0;
+        /* margin-bottom: 80px; */
+        background: radial-gradient(ellipse at 90% 50%, rgba(255, 81, 10, .42), transparent 50%), linear-gradient(340deg, #261813, #6f1d08 65%, #ff5316);
+    }
+    .statisticsContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .statisticsInnerContainer{
+        padding-top:0 ;
+    }
+
+    .impact{
+            text-align: center;
+    }
+
+    .impactTitle{
+        color: #ffffff;
+    }
+
+    .impactTagline{
+        margin: 20px 20px 64px 20px;
+        font-size: 46px;
+    }
+
+    .singleStat{
+        width: 25%;
+    }
+
+    .singleStat:nth-child(2){
+        border-right: 1px solid #ffffff;
+        border-left: 1px solid #ffffff;
+    }
+
+    .singleStat:nth-child(3){
+        border-right: 1px solid #ffffff;
+    }
+    .statNumber{
+        font-size: 56px;
+        text-align: center;
+        margin-bottom:10px;
+        font-weight: 700;
+    }
+
+    .statName{
+        font-size: 23px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+
+
+        /* background: radial-gradient(ellipse at 90% 50%, rgba(255, 81, 10, .42), transparent 50%), linear-gradient(110deg, #1a0b06, #6f1d08 65%, #c83a08); */
