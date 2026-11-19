@@ -11,7 +11,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+}
+
+.contactTagline{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 56px;
+    width: 42%;
+    margin: 20px;
 }
 
 .contactOptions-Container{

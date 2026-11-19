@@ -7,7 +7,7 @@ const Founder = ()=>{
             <div className="container" id="founder">
                 <div className="innerContainer founderContainer">
                     <div className="textContent">
-                        <div className="tagLine">The Man Behind Garuda Brandworks</div>
+                        <div className="founderTagLine">The Man Behind Garuda Brandworks</div>
                         <div className="text">
                             My journey in design began in 2019 with a clear conviction: 
                             every business has a distinct story, and it deserves to be told

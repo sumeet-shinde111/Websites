@@ -9,6 +9,14 @@
     height: 100vh;
 }
 
+.founderTagLine{
+    font-weight: 700;
+    font-size: 56px;
+    width: 60%;
+    margin: 20px;
+    line-height: 58px;
+}
+
 .founderName{
     font-size: 22px;
     font-weight: 700;

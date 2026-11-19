@@ -8,7 +8,7 @@ const stats = [
     },
     {
         number: 500,
-        name: "Projects Successfully Delivered"
+        name: "Projects Delivered"
     },
     {
         number: 200,
@@ -27,9 +27,6 @@ const Statistics = ()=>{
             <div className="container" id="statistics">
                 <div className="innerContainer statisticsInnerContainer">
                     <div className="impact">
-                        <h2 className="impactTitle">
-                            Our impact
-                        </h2>
                         <div className="impactTagline">Numbers That Speak</div>
                     </div>
                     <div className="statisticsContainer">

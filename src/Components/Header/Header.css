@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 28px 45px;
-    background: transparent;
+    padding: 8px 45px;
+    background: rgba(15,15,21,0.8);
+    backdrop-filter: blur(12px);
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: url("/images/header/header\ background.png");
 }
 
 .logoContainer {
@@ -41,7 +41,7 @@ a{
 }
 
 .link {
-  font-size: 21px;
+  font-size: 18px;
   padding-bottom: 10px;
 }
 

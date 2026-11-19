@@ -14,26 +14,26 @@ import webdev from "../../../public/images/services/webdevIcon.png";
 const serviceData =[
     {
         name:"Social Media Marketing",
-        description:"Build connections, spark conversations, and grow your online presence.",
+        description:"We create scroll-stopping content that captures attention and builds your brand presence.From strategy to engagement, we turn followers into a loyal community.Make your brand impossible to ignore across every social platform.",
         icon: socialIcon,
         image:socialMedia,
 
     },
      {
         name:"Influencer Marketing",
-        description:"Connect your brand with the right voices and authentic audiences.",
+        description:"We connect your brand with creators who inspire trust and influence decisions.Through authentic collaborations, we help you reach the right audience.Turn powerful partnerships into meaningful brand growth.",
         icon: influencerIcon,
         image:influencerMarketing,
     },
      {
         name:"Video Production Services",
-        description:"Create compelling visuals that tell your story and capture attention.",
+        description:"We transform your ideas into compelling visual stories that leave a lasting impression.From concept development to the final cut, every frame has a purpose.Bring your brand to life with videos that captivate and connect.",
         icon: videoIcon,
         image:videoProduction,
     },
      {
         name:"Web Design and Development",
-        description:"Transform ideas into seamless digital experiences that drive results.",
+        description:"We design visually striking websites that bring your brand's identity to life.Our responsive, high-performance solutions blend creativity with functionality.Turn visitors into customers with digital experiences built to deliver results.",
         icon: webdev,
         image:webDev,
     },

@@ -14,17 +14,11 @@
         padding-top:0 ;
     }
 
-    .impact{
-            text-align: center;
-    }
-
-    .impactTitle{
-        color: #ffffff;
-    }
-
     .impactTagline{
         margin: 20px 20px 64px 20px;
         font-size: 46px;
+        text-align: center;
+        font-weight: 700;
     }
 
     .singleStat{
@@ -43,7 +37,7 @@
         font-size: 56px;
         text-align: center;
         margin-bottom:10px;
-        font-weight: 700;
+        font-weight: 900;
     }
 
     .statName{
