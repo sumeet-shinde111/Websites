@@ -14,22 +14,27 @@
     padding: 10px 20px;
 }
 
+.leftSection{
+    position: relative;
+    top: 150px;
+    left: 78px;
+}
+
 .tagline{
     width: 60%;
     font-size: 140px;
-    margin-top: 150px;
-    margin-left: 80px;
     line-height: 140px;
 }
 
 .subTagLine{
     margin-top: 15px;
-    margin-left: 89px;
     width: 40%;
     font-size: 20px;
     line-height: 30px;
     color: #c6c1bc;
     letter-spacing: 2px;
+    position: relative;
+    left: 9px;
 }
 
 .keywordHighlight{
@@ -51,7 +56,6 @@
     outline: none;
     cursor: pointer;
     margin-top: 55px;
-    margin-left: 80px;
 }
 
 .heroImage{

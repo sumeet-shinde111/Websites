@@ -1,28 +1,69 @@
 #contact{
     background: radial-gradient(ellipse at 90% 50%, rgba(255, 81, 10, .42),
         transparent 50%), linear-gradient(28deg, #261813, #6f1d08 65%, #ff5316);
+    padding: 130px 30px;
 }
 
 .contactContainer{
     padding: unset;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
 }
 
 .contact-innerContainer{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 20px 18px;
+
+}
+
+.contactTitle{
+    margin: 20px 0;
 }
 
 .contactTagline{
     font-weight: 700;
-    font-size: 55px;
-    line-height: 56px;
-    width: 42%;
-    margin: 20px;
+    font-size: 76px;
+    width: 79%;
+    margin: 20px 0;
+    line-height: .98;
+    letter-spacing: -3px;
+
 }
 
-.contactOptions-Container{
-    margin: 30px;
+.conversationButton{
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    min-height: 48px;
+    padding: 0 24px;
+    border: 1px solid #ff510a;
+    border-radius: 50px;
+    background: #ff510a;
+    color: #080808;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background .25s, transform .25s;
+}
+
+.conversationButton:hover{
+    background: #ff762f;
+    transform: translateY(-3px);
+}
+.subTagline-Contact{
+    font-size: 20px;
+    margin-bottom: 28px;
+    line-height: 1.8;
+    max-width: 55%;
+    color: #c6c1bc;
+}
+
+.socialMedia-Container{
+    margin: 0px 30px 30px 44px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -36,6 +77,11 @@
     align-items: center;
     justify-content: center;
     letter-spacing: 3px;
+      box-sizing: border-box;
+
+}
+ .option:last-child {
+  flex-basis: 100%;
 }
 
 .optionName{
@@ -53,7 +99,7 @@
 }
 
 .optionName::after{
-     content: '';
+  content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -70,10 +116,57 @@
 }
 
 .optionIcon {
-    width: 40px;
+    width: 30px;
 }
 
 .socialName{
     padding: 10px;
 }
 
+.contactRight-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contactOptions-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    margin: 26px;
+    box-sizing: border-box;
+}
+
+.contactOption{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 0 18px;
+}
+
+.contactIcon-container{
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .25);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contactIcon{
+    width: 19px;
+    height: 19px;
+}
+
+.label{
+    margin-bottom: 6px;
+    font-size: 14px;
+    color:rgba(255, 255, 255, .65);
+}
+.optionValue{
+    font-size: 18px;
+    font-weight: 500;
+}
