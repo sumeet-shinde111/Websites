@@ -9,7 +9,9 @@ const ContactOptions = ({src,label,value})=>{
                     </span>
                 <div className="optionContainer">
                     <div className="label">{label}</div>
-                    <div className="optionValue">{value}</div>
+                    {
+                        label == "Email" ? <a href="mailto:a@a.com">{value}</a> : <div className="optionValue">{value}</div>
+                    }
                 </div>
                 
             </div>
