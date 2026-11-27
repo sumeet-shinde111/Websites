@@ -48,14 +48,19 @@
 }
 
 .exploreWork{
-    border-radius: 30px;
     padding: 20px 30px;
     font-size: 18px;
-    border: 1px solid;
     font-weight: 700;
     outline: none;
     cursor: pointer;
     margin-top: 55px;
+    border: 1px solid #ff510a;
+    border-radius: 50px;
+    background: #ff510a;
+}
+.exploreWork:hover{
+    background: #ff762f;
+    transform: translateY(-3px);
 }
 
 .heroImage{

@@ -1,10 +1,10 @@
 .card{
-    border-radius: 16px;
+    border-top: 1px solid grey;
+    border-radius: 9px;
     display: flex;
     flex-direction: row;
     transition: border .7s, transform .7s, background .7s;
-    cursor: pointer;
-   padding: 18px;
+    padding: 18px;
 }
 
 .card:hover{
@@ -28,36 +28,34 @@
     align-items: center;
     width: 100%;
 }
+
+.index{
+    font-size: 18px;
+    color: #ff510a;
+}
 .serviceName{
-    display: inline-block;
     padding: 16px 0px;
-    font-size: 28px;
+    font-size: 36px;
     line-height: 1.2;
     margin-bottom: 4px;
     letter-spacing: 1.5px;
-    height: 98px;
     text-align: center;
+    width: 30%;
+
 }
 
 .serviceTagline{
     font-size: 16px;
     line-height: 1.7;
-    margin-bottom: 22px;
     letter-spacing: 1px;
     color: #a6a29e;
-    text-align: center;
+    width: 45%;
 }
 
 .serviceTitleContainer{
     display: flex;
-    gap: 10px;
-    flex-direction: column;
+    gap: 64px;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 20%;
-}
-
-.serviceIcon{
-    width: 60px;
-    height: 76px;
 }

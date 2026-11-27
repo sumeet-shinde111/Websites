@@ -1,6 +1,8 @@
+import { Mail, Phone, MapPin } from "lucide-react";
+import { TiSocialFacebook } from "react-icons/ti";
 import "../Contact/contact.css";
 import linkedinIcon from "/images/contact/linkedin.png";
-import instagramIcon from "/images/contact/instagram.png";
+import instagramIcon from "../../../public/images/contact/instagram.png";
 import facebookIcon from "/images/contact/facebook.png";
 import whatsappIcon from "/images/contact/whatsapp.png";
 import behanceIcon from "/images/contact/behance.png";
@@ -10,17 +12,17 @@ const contactOptions = [
     {
         label:"Email",
         value:"a@a.com",
-        src:instagramIcon,
+        src:Mail,
     },
     {
         label:"Phone",
         value:"1234567890",
-        src:instagramIcon,
+        src:Phone,
     },
     {
         label:"Location",
         value:"Pune",
-        src:instagramIcon,
+        src:MapPin,
     }
 ]
 
@@ -55,6 +57,7 @@ const Contact = ()=>{
     return(
         <>
             <div className="container" id="contact">
+
                 <div className="innerContainer contactContainer">
                     <div className="contact-innerContainer">
                          <h2 className="contactTitle"> 

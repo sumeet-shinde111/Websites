@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Header } from './Components/Header/Header';
 import Hero  from './Components/Hero/Hero';
 import "./App.css";
+import "./index.css";
 import Services from './Components/Services/Services';
 import About from './Components/About/About';
 import Statistics from './Components/Statistics/Statistics';

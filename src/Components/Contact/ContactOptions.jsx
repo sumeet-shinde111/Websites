@@ -1,11 +1,11 @@
 
-const ContactOptions = ({src,label,value})=>{
+const ContactOptions = ({src:Icon,label,value})=>{
     return(
         <>
             <div className="contactOption">
                 
                 <span className="contactIcon-container">
-                    <img src={src} alt={label+" image"} className="contactIcon"/>
+                    <Icon size={19} strokeWidth={2} />
                     </span>
                 <div className="optionContainer">
                     <div className="label">{label}</div>

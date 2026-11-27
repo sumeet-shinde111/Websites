@@ -7,12 +7,12 @@ const About = ()=>{
                 <div className="aboutUs">
                     <div className="aboutContent">
                         <h2 className="aboutTitle">
-                            About us
+                            About us<span className="dot">.</span>
                         </h2>
                         <div className = "aboutTagline">
-                            Transforming visions into 
-                            <div>
-                                iconic brands
+                            Transforming visions into iconic brands
+                            <div className="aboutTagline-lowerLine">
+                                {/* iconic brands */}
                             </div>
                         </div>
                         <div className="aboutSubTagLine">

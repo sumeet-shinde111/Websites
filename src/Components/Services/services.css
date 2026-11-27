@@ -6,7 +6,8 @@
 }
 
 .servicesContainer{
-        padding: 100px 0px 10px 0px;
+        padding: 70px 0px 10px 0px;
+        background-color: #000;
 }
 .cardContainer{
     margin: 50px 24px;
@@ -17,8 +18,11 @@
 }
 
 .servicesTitle{
-    font-size: 30px;
+    font-size: 46px;
     margin: 20px 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
 }
 .servicesTagline{
     font-size: 46px;
@@ -31,10 +35,15 @@
 
 #services{
    min-height: 100vh;
-    background-image: 
+    /* background-image: 
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/services/services-background.webp);
+    url(/images/services/services-background.webp); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.dot{
+  color: #ff510a;
+  font-size: 66px;
 }

@@ -16,7 +16,8 @@
 }
 
 .aboutContent{
-    width: 50%;
+    /* width: 51%; */
+        width: 70%;
 }
 
 .aboutTitle{
@@ -25,15 +26,20 @@
 
 .aboutTagline{
     margin: 20px 20px;
-    font-size: 65px;
+    font-size: 91px;
     text-align: center;
-    line-height: 71px;
+    line-height: 100px;
     font-weight: 700;
+}
+
+.aboutTagline-lowerLine{
+        /* margin-top: 35px; */
 }
 
 .aboutSubTagLine{
     margin-top: 15px;
-    margin-left: 20px;    font-size: 20px;
+    margin-left: 20px;    
+    font-size: 20px;
     line-height: 30px;
     color: #c6c1bc;
     letter-spacing: 2px;

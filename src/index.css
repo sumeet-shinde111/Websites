@@ -12,7 +12,12 @@ body{
 h2{
     font-size: 30px;
     margin: 20px 20px;
-    color: #ff510a;
+    /* color: #ff510a; */
+}
+
+.dot{
+  color: #ff510a;
+  font-size: 66px;
 }
 
 .tagLine{
